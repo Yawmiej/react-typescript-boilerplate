@@ -13,7 +13,7 @@ import theme from '@chakra-ui/theme';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 
-export const App: React.FC = () => (
+export const App: React.FC = (): JSX.Element => (
   <ChakraProvider theme={theme}>
     <CSSReset />
     <Box textAlign="center" fontSize="xl">

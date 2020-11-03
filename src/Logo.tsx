@@ -7,7 +7,7 @@ const spin = keyframes`
   to { transform: rotate(360deg); }
 `;
 
-export const Logo = (props: ImageProps) => (
+export const Logo = (props: ImageProps): JSX.Element => (
   <chakra.img
     css={{
       '@media (prefers-reduced-motion: no-preference)': {
